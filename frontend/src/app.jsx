@@ -8,7 +8,7 @@ import Home from "./pages/home";
 import Dashboard from "./pages/dashboard";
 import Matches from "./pages/matches";
 
-import Browse from "./pages/browse";
+
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/matches" element={<Matches />} />
-          <Route path="/browse" element={<Browse />} />
+          
         </Routes>
 
         <Footer />
